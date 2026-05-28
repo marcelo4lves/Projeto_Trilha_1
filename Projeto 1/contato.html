@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidade esotérica</title>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+    <!-- Menu de navegação-->
+        <nav>
+            
+                <img src="logo_universidade_esoterica.png" title="Universidade Esóterica" alt="Logo - Universidade esotérica" >
+                <a href="index.html">Início</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="cursos.html">Cursos</a>
+                <a href="contato.html">Contato</a>
+            
+        </nav>
+    </header>
+<!--Seção principal-->
+<section>
+  <img src="tarot.jpg" alt="Tarô" title="Tarô">
+</section>
+
+<!--Seção de contato-->
+<section>
+  <h2>Entre em contato</h2>
+  <form action="" method="">
+    <!-- Nome completo  -->
+    <label for="nome">Nome completo:</label>
+    <input type="text" id="nome" name="nome" required>
+    <br>
+    <!-- Email  -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  <br>
+    <!-- Telefone  -->
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone">
+  <br>
+    <!-- Assunto  -->
+    <label for="assunto">Assunto:</label>
+    <select id="assunto" name="assunto">
+      <option value="duvida">Dúvida</option>
+      <option value="matricula">Matrícula</option>
+      <option value="outros">Outros</option>
+    </select>
+  <br>
+    <!--  -->
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" minlength="20" required></textarea>
+  <br>
+    <!-- Checkbox para política de privacidade  -->
+    <div>
+      <input type="checkbox" id="privacidade" name="privacidade" required>
+      <label for="privacidade">Aceito a política de privacidade</label>
+    </div>
+  <br>
+    <!-- Botões -->
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+  </form>
+</section>
+
+
+
+
+ <footer>
+    <img  src="logo_universidade_esoterica.png" alt="logo universidade esotérica">
+    <p>Universidade Esotérica</p>
+</footer>
+
+</body>
+</html>
